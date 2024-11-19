@@ -21,7 +21,6 @@ public class FileInspector {
                     charCount += line.length();
                 }
 
-                // Summary report
                 System.out.println("\n--- Summary Report ---");
                 System.out.println("File Name: " + file.getName());
                 System.out.println("Number of Lines: " + lineCount);
